@@ -8,29 +8,29 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
+    font-family: 'Geologica', sans-serif;
     font-weight: normal;
 }
 
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #104401de;
+    color: #ffffff;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -45,6 +45,14 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+section .upon {
+    font-size:larger;
+}
+
+.thumbnail img {
+    height: 760px;
 }
 
 .brands-list img {
@@ -64,24 +72,16 @@ section {
     padding: 24px 0;
 }
 
-section h2 {
-    margin-bottom: 16px;
-}
-
 section {
-    color: #182C61;
+    color: #104401de;
 }
 
 section p {
-    margin-bottom: 8px;
-}
-
-.store-front {
-    margin-right: 32px;
+    margin-bottom: 36px;
 }
 
 .social-links img {
-    height: 24px;
+    height: 32px;
 }
 
 .social-links li {
@@ -121,22 +121,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #104401de;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #3357bd;
+    background-color: #259c04de;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #104401de;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #104401de;
     color: #ecf0f1;
     padding: 16px 0;
 }
